@@ -19,6 +19,7 @@ nav {
 	height: 50px;
 	align-items: center;
 	color: black;
+	overflow: hidden;
 }
 
 nav ul {
