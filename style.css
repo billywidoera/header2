@@ -102,6 +102,9 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 576px) {
+
+body { posiition: fixed;
+	}
 	nav ul {
 		position: absolute;
 		right: 0;
@@ -125,6 +128,5 @@ nav ul li a:hover {
 		transform: translatex(0);
 		opacity: 1;
 	}
-body { posiition: fixed;
-	}
+
 }
