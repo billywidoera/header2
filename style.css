@@ -103,9 +103,6 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 576px) {
-	body {
-		overflow: hidden;
-	}
 	nav ul {
 		position: absolute;
 		right: 0;
@@ -128,6 +125,10 @@ nav ul li a:hover {
 	nav ul.slide {
 		transform: translatex(0);
 		opacity: 1;
+	}
+	nav ul {
+		overflow-x: hidden;
+		position: fixed;
 	}
 
 }
