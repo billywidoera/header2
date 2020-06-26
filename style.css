@@ -125,5 +125,6 @@ nav ul li a:hover {
 		transform: translatex(0);
 		opacity: 1;
 	}
+body { posiition: fixed;
 	}
 }
