@@ -104,7 +104,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 576px) {
 	body {
-		overflo: hidden;
+		overflow: hidden;
 	}
 	nav ul {
 		position: absolute;
